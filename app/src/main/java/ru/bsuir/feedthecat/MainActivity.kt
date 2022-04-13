@@ -59,12 +59,12 @@ class MainActivity : AppCompatActivity() {
                         this.action = Intent.ACTION_SEND
                         this.putExtra(
                             Intent.EXTRA_TEXT,
-                            "My new record is: " + binding.score.text.toString()
+                            "My new score is: " + binding.score.text.toString()
                         )
                         this.flags = Intent.FLAG_ACTIVITY_NEW_TASK
                         this.type = "text/plain"
                     }
-                    startActivity(Intent.createChooser(intent, "Share record"))
+                    startActivity(Intent.createChooser(intent, "Share score"))
                 }
             }
             true
