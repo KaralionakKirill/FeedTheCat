@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="409dp"
+        android:layout_height="3dp"
+        android:layout_above="@id/bsuirText"
+        android:background="?android:attr/listDivider" />
+
+
+    <TextView
+        android:id="@+id/developerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/developer"
+        android:textAlignment="viewEnd"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/developerText"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/author"
+        android:textAlignment="viewEnd"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/groupText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="464dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/group"
+        android:textAlignment="viewEnd"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/groupNumText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/groupText"
+        android:layout_marginEnd="10dp"
+        android:text="@string/group_number"
+        android:textAlignment="viewEnd"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/bsuirText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-4dp"
+        android:text="@string/bsuir_2022"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
